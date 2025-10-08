@@ -9,3 +9,4 @@ if total_capacity >= place_in_line:
     print("yes")
 else: 
     print("no")
+    
