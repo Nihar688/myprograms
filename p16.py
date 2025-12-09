@@ -37,3 +37,49 @@ a = "marshall"
 b = "dog"
 status = a == b
 #10. Determine the minimum and maxiumum values within a string 
+temp = "hydroflask"
+print(max(temp))
+print(min(temo))
+print(max('hello', 'goodbye'))
+print(min('1','2','3','!'))
+#11. Determine if an item or a pattern exists with a string 
+word = "poopooplatter"
+if "poo" in word:
+    print("There is poo!")
+#12. Locate the index of a item or a pattern within a string 
+poop_location = word.find("poo")
+poop_location = word.index("poop")
+#13. Count how often an item or a pattern occurs within a string
+poop_count = word.count("poo")
+#14. Convert all items in a string to uppercase/lowercase
+yell_hydroflask = "hydroflaks".upper()
+calm_hydroflask = yell_hydroflask.lower()
+#15. Determine if the string can be converted to an integer
+#16. Convert a string to an integer 
+str_num = "67"
+num = 0
+if str_num.isdigit():
+    num = int(str_num)
+#17. Determine if a string only contains alphabetical characters
+word = "shsm".isalpha()
+#18. Remove non-aplhabetical characters from a string, sometimes...it is easier to create/grow than remove
+gibberish = "!y87y382iwuherj@@#*#*#&"
+clean = ""
+i = 0 
+while i < len(gibberish):
+    if gibberish[i].isalpha():
+        clean += gibberish[i]
+    i += 1 
+#19. Remove all alphabetical characters from a string 
+gibberish = "!y87y382iwuherj@@#*#*#&"
+clean = ""
+i = 0 
+while i < len(gibberish):
+    # if not gibberish[i].isalpha():
+    if gibberish[i].isalpha() == False:
+        clean += gibberish[i]
+    i += 1 
+#20. Remove all whitespace from a string 
+example = "h h h h h h h h h h h e l l               l o"
+example = example.replace(" ", "")
+#21. Sort a string in ASCII order or reverse-ASCII order
